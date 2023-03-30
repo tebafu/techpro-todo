@@ -1,0 +1,16 @@
+.todos {
+    margin-top: 8px;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 50px;
+
+    justify-items: center;
+
+    width: 90%;
+}
+
+.column-header {
+    text-align: center;
+    font-family: "Silkscreen", cursive;
+}
