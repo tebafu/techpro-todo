@@ -2,6 +2,7 @@ import React, { useState } from "react";
 
 import InputField from "./components/InputField/InputField";
 import TodoList from "./components/TodoList/TodoList";
+import Header from "./components/Title/Title";
 
 import "./App.css";
 
@@ -22,7 +23,7 @@ function App() {
     return (
         <div className="App">
             <div className="container">
-                <h1 className="header">Task Tracker</h1>
+                <Header />
                 <InputField addNewTodo={addNewTodo} />
                 <TodoList todos={todos} setTodos={setTodos} />
             </div>
